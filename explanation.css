@@ -1,0 +1,59 @@
+.explanation{
+    border-top: 1px solid rgb(199, 199, 199);
+    margin: 2% 0% 0% 0%;
+}
+.common {
+    border-bottom: 1px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.heading p:nth-child(1) {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 48, 48);
+    font-weight: 600;
+    letter-spacing: -1;
+    margin: 0% 0% 0% 0%;
+}
+
+.heading i {
+    z-index: -1;
+    margin: 0% 5% 0% 0%;
+    font-size: 1.5em;
+    rotate: 0deg;
+}
+
+.common:hover {
+    color: #00cc83;
+}
+
+.detail {
+    /* padding: 3%; */
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 48, 48);
+    font-weight: 500;
+    letter-spacing: -1;
+    margin: 0% 0% 0% 0%;
+    cursor: context-menu;
+}
+
+.detail h3 {
+    color: rgb(48, 48, 48);
+    font-size: 1.1vw;
+    margin: 2% 0% 2% 0%;
+    text-decoration: underline 1.5px;
+}
+
+.detail p {
+    font-size: 1em;
+    margin: 1% 0% 1% 0%;
+}

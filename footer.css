@@ -1,0 +1,29 @@
+footer {
+    margin: 8% 0% 0% 0% ;
+    position: relative;
+    bottom: 0;
+    right: 150%;
+    width: 141.7vw;
+    height: 6vh;
+    background-color: rgb(0, 0, 123);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0% 0% 0% 25%;
+}
+
+/* .end i{
+    margin: 0% 0% 0% 10%;
+}
+.end p{
+    margin: 0% 0% 0% 10%;
+} */
+

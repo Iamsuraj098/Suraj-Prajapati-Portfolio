@@ -1,0 +1,403 @@
+@media screen and (max-width:1055px) {
+
+    .start {
+        justify-content: space-evenly
+    }
+
+    .start button {
+        font-size: 2vw;
+    }
+
+    .contain{
+        .shortcut ul li{
+            width: 9vw;
+        }
+        .explanation{
+            .detail h3{
+                font-size: 1.3vw;
+            }
+        }
+    }
+
+    .amazing {}
+
+    footer {
+        width: 258%;
+        position: relative;
+        bottom: 0;
+        right: 150%;
+    }
+}
+
+@media screen and (max-width:770px) {
+
+    header {
+        .start {
+            justify-content: space-evenly;
+        }
+
+        .start p:nth-child(1) {
+            font-size: 3vw;
+        }
+
+        .start button {
+            font-size: 2.5vw;
+            width: 20vw;
+            height: 5vh;
+        }
+    }
+    .contain{
+        .shortcut ul li{
+            width: 12vw;
+        }
+        .explanation{
+            .detail h3{
+                font-size: 2vw;
+            }
+        }
+    }
+    main{
+        .available {
+            margin: 0% 0% 0% 0%;
+            width: 25vw;
+            height: auto;
+        }
+
+        .available img {
+            width: 10vw;
+            height: auto;
+            font-weight: 600;
+            margin: 10% 0% 10% 0%
+        }
+
+        .available p:nth-child(2) {
+            font-size: 2.5vw;
+        }
+        
+        .available p:nth-child(3) {
+            font-size: 2vw;
+        }        
+
+        .amazing {
+            margin: 0% 0% 0% 0%;
+            width: 25vw;
+            height: auto;
+        }
+
+        .amazing img{
+            width: 10vw;
+            height: auto;
+            font-weight: 600;
+            margin: 10% 0% 10% 0%
+        }
+
+        .amazing p:nth-child(2) {
+            font-size: 2.5vw;
+        }
+        
+        .amazing p:nth-child(3) {
+            font-size: 2vw;
+        }
+    }
+}
+
+@media screen and (max-width:430px) {
+    header {
+        .start {
+            justify-content: space-evenly;
+        }
+
+        .start p:nth-child(1) {
+            font-size: 4vw;
+        }
+
+        .start button {
+            font-size: 2.5vw;
+            width: 20vw;
+            height: 5vh;
+        }
+
+    }
+    .contain{
+        .shortcut ul li{
+            width: 21vw;
+            margin: 2% 0% 0% 2%;
+        }
+        .explanation{
+            .detail h3{
+                font-size: 3.5vw;
+            }
+        }
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+
+        .photo {
+            width: 90vw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin: 3% 0% 0% 0%;
+        }
+
+        .photo img {
+            width: 90vw;
+            height: auto;
+        }
+
+        .line {
+            background-color: aliceblue;
+            position: relative;
+            top: 0%;
+            /* margin: 1%; */
+            align-items: center;
+            justify-content: left;
+            width: 88vw;
+            height: auto;
+            font-size: 5vw;
+        }
+
+        .contain {
+            width: 90vw;
+            margin: 3% 0% 0% 0%;
+            .shortcut{
+                border-top: 0px solid black;
+                height: 0vh;
+            }
+            .shortcut ul li{
+                opacity: 0;
+                z-index: -1;
+            }
+        }
+
+        .explanation {
+            width: 90vw;
+            height: auto;
+        }
+
+        .heading {
+            width: 80vw;
+            height: auto;
+            justify-content: space-between;
+        }
+
+        .heading i {
+            margin: 0% 0% 0% 0%;
+        }
+
+        footer {
+
+            width: 285vw;
+            position: relative;
+            bottom: 0;
+            right: 150%;
+        }
+
+        .available {
+            margin: 0% 0% 0% 0%;
+            width: 30vw;
+            height: auto;
+        }
+
+        .available img {
+            width: 10vw;
+            height: auto;
+            font-weight: 600;
+            margin: 10% 0% 10% 0%
+        }
+
+        .available p:nth-child(2) {
+            font-size: 3vw;
+        }
+        
+        .available p:nth-child(3) {
+            font-size: 2vw;
+        }        
+
+        .amazing {
+            margin: 0% 0% 0% 0%;
+            width: 30vw;
+            height: 20vh;
+        }
+
+        .amazing img{
+            width: 10vw;
+            height: auto;
+            font-weight: 600;
+            margin: 10% 0% 10% 0%
+        }
+
+        .amazing p:nth-child(2) {
+            font-size: 3vw;
+        }
+        
+        .amazing p:nth-child(3) {
+            font-size: 2vw;
+        }
+    }
+}
+
+@media screen and (max-width:330px) {
+    header {
+        .start {
+            justify-content: space-evenly;
+        }
+
+        .start p:nth-child(1) {
+            font-size: 5vw;
+        }
+
+        .start button {
+            margin-left: 0%;
+            font-size: 3vw;
+            font-weight: 600;
+            width: 25vw;
+            height: 5vh;
+        }
+
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+
+        .photo {
+            width: 90vw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin: 3% 0% 0% 0%;
+        }
+
+        .photo img {
+            width: 90vw;
+            height: auto;
+        }
+
+        .line {
+            background-color: aliceblue;
+            position: relative;
+            top: 0%;
+            /* margin: 1%; */
+            align-items: center;
+            justify-content: left;
+            width: 88vw;
+            height: auto;
+            font-size: 5vw;
+        }
+
+        .contain {
+            width: 90vw;
+            margin: 3% 0% 0% 0%;
+            .shortcut{
+                border-top: 0px solid black;
+                height: 0vh;
+            }
+            .shortcut ul li{
+                opacity: 0;
+                z-index: -1;
+            }
+            .explanation{
+                .detail h3{
+                    font-size: 4vw;
+                }
+            }
+        }
+
+        .intro h1 {
+            font-size: 7vw;
+        }
+
+        .about p:nth-child(2) {
+            color: rgb(48, 48, 48);
+            font-weight: 550;
+        }
+
+        .explanation {
+            width: 90vw;
+            height: auto;
+        }
+
+        .heading {
+            width: 80vw;
+            height: auto;
+            justify-content: space-between;
+        }
+
+        .heading i {
+            margin: 0% 0% 0% 0%;
+        }
+
+        .heading p:nth-child(1) {
+            font-size: 5vw;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(48, 48, 48);
+            font-weight: 600;
+            letter-spacing: -1;
+            margin: 0% 0% 0% 0%;
+        }
+
+        .detail h3 {
+            text-decoration: underline 1.5px;
+        }
+
+        footer {
+            width: 285vw;
+            position: relative;
+            bottom: 0;
+            right: 150%;
+        }
+
+        .available {
+            margin: 0% 0% 0% 0%;
+            width: 40vw;
+            height: 25vh;
+        }
+
+        .available img {
+            width: 20vw;
+            height: 10vh;
+            font-weight: 600;
+            margin: 10% 0% 10% 0%
+        }
+
+        .available p:nth-child(2) {
+            font-size: 4vw;
+        }
+        
+        .available p:nth-child(3) {
+            font-size: 3vw;
+        }        
+
+        .amazing {
+            margin: 0% 0% 0% 0%;
+            width: 40vw;
+            height: 25vh;
+        }
+
+        .amazing img{
+            width: 20vw;
+            height: 10vh;
+            font-weight: 600;
+            margin: 10% 0% 10% 0%
+        }
+
+        .amazing p:nth-child(2) {
+            font-size: 4vw;
+        }
+        
+        .amazing p:nth-child(3) {
+            font-size: 3vw;
+        }
+    }
+
+
+
+}
