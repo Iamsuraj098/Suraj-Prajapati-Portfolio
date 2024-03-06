@@ -40,8 +40,14 @@ rotate[0].addEventListener("mousedown", function(){
 
 function project(){
     let text1 = "<h3>Solar System Based On Virtual Reality</h3><p>Associated with AKTU</p><p>Duration: Sep 2023 - Dec 2023</p> <p>Description: To make education easy and better experience regarding how solor system work in 3D way</p> <p>Tool: Unity Game Engin and VS Code</p> <p>Language: C#</p> <p>Hardware: VR Player</p> <p>Team Member names: Siddhant, Shivansh, Sagar</p>";
+    let text_link1 = "<p>GitHub Link</p>";
+    let result1 = text_link1.link("#");
     let text2 = "<h3>Desktop Assisant</h3> <p>Associated with AKTU</p><p>Duration: Sep 2022 - Jan 2023</p> <p>Description: We make a voice assistant like google assistant but it for the laptop and pc. Here we commands like open wordpad or any system application and live google search. These all operation perform through the voice</p><p>Language : Python</p> <p>IDE used: PyCharm</p> <p>Team Member names: Sunny</p>";
+    let text_link2 = "<p>GitHub Link</p>"
+    let result2 = text_link2.link("https://github.com/Iamsuraj098/Desktop-Assistants");
     let text3 = "<h3>Portfolio</h3><p>Language: HTML, CSS, JavaScript</p><p>IDE use: VS Code</p>";
+    let text_link3 = "<p>GitHub Link</p>";
+    let result3 = text_link3.link("https://github.com/Iamsuraj098/Suraj-Prajapati-Portfolio");
     if(a[1]==0){
         uparrow[1].style.transition = "0.5s";
         uparrow[1].style.rotate = "180deg";
@@ -50,8 +56,11 @@ function project(){
             rotate[1].style.borderBottom = "0px";
             detail[1].style.padding = "0% 0% 0% 3%";
             detail[1].innerHTML += text1;
+            detail[1].innerHTML += result1;
             detail[1].innerHTML += text2;
+            detail[1].innerHTML += result2;
             detail[1].innerHTML += text3;
+            detail[1].innerHTML += result3;
             detail[1].style.borderBottom = "1px solid rgb(199, 199, 199)";
         }
         a[1] = 1;
