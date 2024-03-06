@@ -57,3 +57,12 @@
     font-size: 1em;
     margin: 1% 0% 1% 0%;
 }
+
+.detail a {
+    font-size: 1em;
+    margin: 1% 0% 1% 0%;
+    text-decoration: none;
+}
+.detail a:hover {
+    text-decoration: underline;
+}
