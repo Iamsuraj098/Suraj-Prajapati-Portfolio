@@ -147,7 +147,7 @@ rotate[3].addEventListener("mousedown", function(){
 })
 
 function certificate(){
-    let text = "<h3>Certification in Frontend Development</h3> <p>Udemy Course</p> <h3>Certification in Data Base Management System</h3> <p>Associated with AKTU</p> <h3>Certification in Python Language</h3> <p>Associated with AKTU</p> <h3>Certification in C Language</h3> <p>Associated with AKTU</p> <h3>Certification in Data Structure</h3> <p>Associated with AKTU</p>";
+    let text = "<h3>Certification in Frontend Development</h3> <p>Udemy Course</p> <h3>Certification in Data Base Management System</h3> <p>Associated with AKTU</p> <h3>Certification in Python Language</h3> <p>Associated with AKTU</p> <h3>Certification in C Language</h3> <p>Associated with AKTU</p> <h3>Certification in Data Structure</h3> <p>Associated with AKTU</p><h3>Certification in Java</h3> <p>Associated with CRC Training</p>";
     if(a[4]==0){
         uparrow[4].style.transition = "0.5s";
         uparrow[4].style.rotate = "180deg";
