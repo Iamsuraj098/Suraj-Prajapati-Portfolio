@@ -102,18 +102,19 @@ main {
 }
 
 .intro ul li {
+    /* width: 10vw; */
     list-style: none;
-    margin: 1% 2% 0% 0%;
+    margin: 1% 2% 1% 0%;
     font-size: 1.3em;
-}
-
-.intro ul li a {
-    color: #00cc83;
     cursor: pointer;
 }
 
-.intro ul li a:hover {
-    color: rgb(0, 0, 123);
+.intro ul li a svg{
+    background-color: rgb(247, 247, 247);
+}
+.intro ul li a svg:hover{
+    background-color: rgb(211, 211, 211);
+    border-radius: 10%;
 }
 
 /* Location */
