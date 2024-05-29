@@ -85,7 +85,7 @@ rotate[1].addEventListener("mousedown", function(){
 })
 
 function experience(){
-    let text = "<h3>Internships</h3> <h4>Fronted Development: Oasis Infobyte</h4> <p> Duration: Sep-Oct 2023 <br> Description: Here I got 4 task which i had completed in 1 month.</p>;
+    let text = "<h3>Internships</h3> <h4>Fronted Development: Oasis Infobyte</h4> <p> Duration: Sep-Oct 2023 <br> Description: Here I got 4 task which i had completed in 1 month.</p>";
     if(a[2]==0){
         uparrow[2].style.transition = "0.5s";
         uparrow[2].style.rotate = "180deg";
