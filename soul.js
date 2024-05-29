@@ -8,7 +8,7 @@ const b = [0, 0, 0, 0, 0];
 const flag = [0, 0, 0, 0, 0];
 
 function skill(){
-    let text = "<h3>Frontend</h3> <p>HTML, CSS, JavaScript, React(Pursuing)</p> <h3>Backend</h3> <p>JDBC, DBMS(My SQL),  JSP/Servlet(Pursuing)</p> <h3>Tools</h3> <p>VS Code, PyCharm, Figma, Eclipse</p> <h3>Other Programming</h3> <p>Java, C, Python, Data Structure, OOPs </p> <h3>Soft Skill</h3><p>Good - Communication skill, Team working skill, Problem solving and logic building skill</p>";
+    let text = "<h3>Frontend</h3> <p>HTML, CSS, JavaScript, React</p> <h3>Backend</h3> <p>JDBC, DBMS(My SQL),  JSP, Servlet, Spring MVC, Spring ORM</p> <h3>Tools</h3> <p>Eclipse J2EE, VS Code, PyCharm, Figma</p> <h3>Other Programming</h3> <p>Java, C, Python, Data Structure, OOPs </p> <h3>Soft Skill</h3><p>Good - Analytical Troubleshooting, Collaborative Team Player, Communication</p>";
     if(a[0]==0){
         a[0] = 1;
         uparrow[0].style.transition = "0.5s";
