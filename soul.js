@@ -9,7 +9,7 @@ const flag = [0, 0, 0, 0, 0];
 
 const sections = [
     {
-        text: "<h3>Frontend</h3> <p>HTML, CSS, JavaScript, React(Pursuing)</p> <h3>Backend</h3> <p>JDBC, DBMS(My SQL),  JSP/Servlet(Pursuing)</p> <h3>Tools</h3> <p>VS Code, PyCharm, Figma, Eclipse</p> <h3>Other Programming</h3> <p>Java, C, Python, Data Structure, OOPs </p> <h3>Interpersonal Skill</h3><p>Communication skill, Team working skill, Problem solving and logic building skill</p>",
+        text: "<h3>Frontend</h3> <p>HTML, CSS, JavaScript, React</p> <h3>Backend</h3> <p>JDBC, DBMS, MySQL,  JSP, Servlet, Spring Boot(Pursuing)</p> <h3>Tools</h3> <p>VS Code, PyCharm, Figma, Eclipse</p> <h3>Other Programming</h3> <p>Java, C, Python, Data Structure, OOPs </p> <h3>Interpersonal Skill</h3><p>Communication skill, Team working skill, Problem solving and logic building skill</p>",
         element: rotate[0],
         arrow: uparrow[0],
         detail: detail[0],
