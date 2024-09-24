@@ -17,8 +17,9 @@ const sections = [
     },
     {
         text: `<h3>AdoptEase</h3>
-               <p>Java Web Development Training</p><p>Duration: Jul 2024 - Aug 2024</p> 
+               <p>Java Web Development Training</p>
                <p>Organisation: CRC Training</p>
+               <p>Duration: Jul 2024 - Aug 2024</p> 
                <p>Description: Developed a comprehensive platform to connect pet adopters with pets while offering
                 premium pet care products. Streamlined the adoption process and integrated supply management.</p> 
                <p>Tool: Eclipse</p> <p>Language: HTML, CSS, Bootstrap, Java, JDBC, JSP, Servlet, MySql.</p> 
