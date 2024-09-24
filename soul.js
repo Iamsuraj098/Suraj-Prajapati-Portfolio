@@ -16,7 +16,14 @@ const sections = [
         flagIndex: 0,
     },
     {
-        text: `<h3>Solar System Based On Virtual Reality</h3>
+        text: `<h3>AdoptEase</h3>
+               <p>Java Web Development Training</p><p>Duration: Jul 2024 - Aug 2024</p> 
+               <p>Organisation: CRC Training</p>
+               <p>Description: Developed a comprehensive platform to connect pet adopters with pets while offering
+                premium pet care products. Streamlined the adoption process and integrated supply management.</p> 
+               <p>Tool: Eclipse</p> <p>Language: HTML, CSS, Bootstrap, Java, JDBC, JSP, Servlet, MySql.</p> 
+               <p>GitHub Link: <a href="https://github.com/Iamsuraj098/Suraj-Prajapati-Portfolio">Solar System</a></p>
+               <h3>Solar System Based On Virtual Reality</h3>
                <p>Associated with AKTU</p><p>Duration: Sep 2023 - Dec 2023</p> 
                <p>Description: To make education easy and better experience regarding how solor system work in 3D way</p> 
                <p>Tool: Unity Game Engine and VS Code</p> <p>Language: C#</p> 
