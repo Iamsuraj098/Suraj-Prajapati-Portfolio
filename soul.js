@@ -23,7 +23,7 @@ const sections = [
                <p>Description: Developed a comprehensive platform to connect pet adopters with pets while offering
                 premium pet care products. Streamlined the adoption process and integrated supply management.</p> 
                <p>Tool: Eclipse</p> <p>Language: HTML, CSS, Bootstrap, Java, JDBC, JSP, Servlet, MySql.</p> 
-               <p>GitHub Link: <a href="https://github.com/Iamsuraj098/Summer-Internship/tree/main/AdoptEase">Solar System</a></p>
+               <p>GitHub Link: <a href="https://github.com/Iamsuraj098/Summer-Internship/tree/main/AdoptEase">AdoptEase</a></p>
                <h3>Solar System Based On Virtual Reality</h3>
                <p>Associated with AKTU</p><p>Duration: Sep 2023 - Dec 2023</p> 
                <p>Description: To make education easy and better experience regarding how solor system work in 3D way</p> 
@@ -52,6 +52,7 @@ const sections = [
                 <p> Duration: Jul 2024 - Aug 2024 <br> Description: Completed comprehensive training on Java Web Technologies, focusing on building
                     dynamic web applications using JSP (JavaServer Pages) and Servlets. Acquired hands-on experience in designing, developing, and deploying web-based applications, emphasizing MVC architecture, session management, and integration with databases. Enhanced skills in debugging, optimizing, and
                     securing Java web applications. </p>
+                 <p>GitHub Link: <a href="https://github.com/Iamsuraj098/Summer-Internship/tree/main">Web Development</a></p>
                 <h3>Jobs</h3> 
                 <p>Fresher</p>`,
         element: rotate[2],
